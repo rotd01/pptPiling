@@ -1,0 +1,15 @@
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\bin\Release\PiliangPPT.dll
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\bin\Release\PiliangPPT.pdb
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\bin\Release\PiliangPPT.dll.manifest
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\bin\Release\PiliangPPT.vsto
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.csproj.AssemblyReference.cache
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.Login.resources
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.Picture_Jigsaw.resources
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.Properties.Resources.resources
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.Ribbon1.resources
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.csproj.GenerateResource.cache
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.csproj.CoreCompileInputs.cache
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.csproj.Up2Date
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.dll
+E:\360Downloads\pptSoft\PiliangPPT\PiliangPPT\obj\Release\PiliangPPT.pdb

@@ -1,0 +1,13 @@
+<svg width="31" height="24" xmlns="http://www.w3.org/2000/svg" class="jeecg-svg-icon anticon anticon">
+ <g>
+  <title>Layer 1</title>
+  <g filter="url(#svg_1_blur)" id="svg_1" stroke="null">
+   <text transform="matrix(0.405387 0 0 0.3777 0 0.354093)" font-size="50.43px" font-family="Dosis-ExtraBold,Dosis" font-weight="900" fill="#D6D6D6" y="50.12442" x="0.01271" id="svg_7" stroke="null">Pitu</text>
+  </g>
+ </g>
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+</svg>
