@@ -790,7 +790,7 @@ namespace PiliangPPT
                                     }
                                 }
 
-                                if(false || checkBox4.Checked){
+                                if(false && checkBox4.Checked){
                                     if(File.Exists(cPath + "d1d.png")){
                                         //FileInfo _fileInfo = new FileInfo(cPath + "d1d.png");
                                         //_fileInfo.Delete();
@@ -1217,7 +1217,7 @@ namespace PiliangPPT
                             }
 
                             
-                            if(false || checkBox4.Checked){
+                            if(false && checkBox4.Checked){
                                 if(File.Exists(cPath + "d1d.png")){
                                     //FileInfo _fileInfo = new FileInfo(cPath + "d1d.png");
                                     //_fileInfo.Delete();
@@ -1929,15 +1929,15 @@ namespace PiliangPPT
  
             try
             {
-                for (int i = 1; i < _ppt.Slides.Count; i++)
-                {
+                //for (int i = 1; i < _ppt.Slides.Count; i++)
+                //{
 
-                    PowerPoint.SlideShowTransition se = _ppt.Slides[i + 1].SlideShowTransition;
-                    se.EntryEffect = PowerPoint.PpEntryEffect.ppEffectPushUp;
+                //    PowerPoint.SlideShowTransition se = _ppt.Slides[i + 1].SlideShowTransition;
+                //    se.EntryEffect = PowerPoint.PpEntryEffect.ppEffectPushUp;
 
-                    //se[-1].EffectType = PowerPoint.MsoAnimEffect.msoAnimEffectArcUp;
+                //    //se[-1].EffectType = PowerPoint.MsoAnimEffect.msoAnimEffectArcUp;
 
-                }
+                //}
                 string path = this.textBox7.Text;
                 if(checkBox6.Checked){
                     path = Path.GetDirectoryName(ppt_path);

@@ -203,43 +203,47 @@ namespace PiliangPPT
             //string str2 = GetCPUID();
             //string date =  > ;
 
-            if(new DateTime(2025,6,18).AddDays(30) > DateTime.Now){
-                //if(str2.Equals("BFEBFBFF000906E9")){
-                if(true) { 
-                    Picture_Jigsaw Picture_Jigsaw = null;
-                    if (Picture_Jigsaw == null || Picture_Jigsaw.IsDisposed)
-                    {
-                        this.Close();
-                        Globals.Ribbons.Ribbon1.button1.Enabled = false;
-                        Picture_Jigsaw = new Picture_Jigsaw();
-                        IntPtr handle = Process.GetCurrentProcess().MainWindowHandle;
-                        NativeWindow win = NativeWindow.FromHandle(handle);
-                        Picture_Jigsaw.Show();
-                           
-                    }
+            if(new DateTime(2025,11,2).AddDays(30) > DateTime.Now){
+                Picture_Jigsaw Picture_Jigsaw = null;
+                if (Picture_Jigsaw == null || Picture_Jigsaw.IsDisposed)
+                {
+                    this.Close();
+                    Globals.Ribbons.Ribbon1.button1.Enabled = false;
+                    Picture_Jigsaw = new Picture_Jigsaw();
+                    IntPtr handle = Process.GetCurrentProcess().MainWindowHandle;
+                    NativeWindow win = NativeWindow.FromHandle(handle);
+                    Picture_Jigsaw.Show();
 
-
-                }else{
-                    MessageBox.Show("机器验证失败");
                 }
-            }else{
+
+                //if(str2.Equals("BFEBFBFF000906E9")){
+                //if(true) { 
+
+
+
+                //}else{
+                //    MessageBox.Show("机器验证失败");
+                //}
+            }
+            else{
                 MessageBox.Show("30天使用已过期，请联系微信:wangkun7991");
             }
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Login.ActiveForm.Close();
+            offLineCheck();
+            //Login.ActiveForm.Close();
             //Globals.Ribbons.Ribbon1.button170.Enabled = true;
 
-            Picture_Jigsaw Picture_Jigsaw = null;
-            if (Picture_Jigsaw == null || Picture_Jigsaw.IsDisposed)
-            {
-                Picture_Jigsaw = new Picture_Jigsaw();
-                IntPtr handle = Process.GetCurrentProcess().MainWindowHandle;
-                NativeWindow win = NativeWindow.FromHandle(handle);
+            //Picture_Jigsaw Picture_Jigsaw = null;
+            //if (Picture_Jigsaw == null || Picture_Jigsaw.IsDisposed)
+            //{
+            //    Picture_Jigsaw = new Picture_Jigsaw();
+            //    //IntPtr handle = Process.GetCurrentProcess().MainWindowHandle;
+            //    //NativeWindow win = NativeWindow.FromHandle(handle);
 
-                Picture_Jigsaw.Show();
-            }
+            //    Picture_Jigsaw.Show();
+            //}
 
 
             //if (textBox1.Text.Length == 0)
@@ -308,7 +312,11 @@ namespace PiliangPPT
         private void Login_Load(object sender, EventArgs e)
         {
             //checkLogin();
-            offLineCheck();
+            //Globals.Ribbons.Ribbon1.button1.Enabled = true;
+            label3.Visible = false;
+            panel1.Visible = true;
+
+            //offLineCheck();
         }
 
         protected override void OnFormClosed(FormClosedEventArgs e)

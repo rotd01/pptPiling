@@ -136,8 +136,9 @@ namespace PiliangPPT
 
         private void button3_Click(object sender, RibbonControlEventArgs e)
         {
-            //Main form = new Main();
-            //form.Show();
+            MessageBox.Show("售后微信：wangkun7991");
+            MsgForm form = new MsgForm();
+            form.Show();
             //Presentation ppt = new Presentation(@"C:\Users\kuniq\Desktop\pptTest\02.清新风格PPT.pptx");
             //ppt.Save(@"C:\Users\kuniq\Desktop\pptTest\02.清新风格PPT.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
 

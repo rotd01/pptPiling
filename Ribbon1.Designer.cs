@@ -104,7 +104,7 @@ namespace PiliangPPT
             // 
             // label4
             // 
-            this.label4.Label = "1.0.24";
+            this.label4.Label = "1.0.25";
             this.label4.Name = "label4";
             // 
             // group3
